@@ -1,0 +1,46 @@
+/* Estilo general para el carrusel */
+.custom-swiper-white {
+  position: relative;
+}
+
+/* Flechas de navegación */
+.custom-swiper-white .swiper-button-next,
+.custom-swiper-white .swiper-button-prev {
+  color: #fff;
+  transition: color 0.3s ease, transform 0.3s ease;
+  transform: scale(0.6); /* Ajusta el tamaño de las flechas */
+}
+
+/* Flechas pequeñas en hover */
+.custom-swiper-white .swiper-button-next:hover,
+.custom-swiper-white .swiper-button-prev:hover {
+  color: #fff;
+  opacity: 0.8;
+  transform: scale(0.7);  /* Hace que se agranden ligeramente */
+}
+
+/* Puntos de paginación (solo en mobile) */
+.custom-swiper-white .swiper-pagination-bullet {
+  background-color: #fff;
+  opacity: 0.4;
+  transition: opacity 0.3s ease;
+}
+
+.custom-swiper-white .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+/* Estilo de la imagen del Swiper */
+.custom-swiper-white {
+  position: relative;
+}
+
+.waves {
+  position: absolute; 
+  top: -100px; 
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 2;
+  object-fit: cover;
+}
