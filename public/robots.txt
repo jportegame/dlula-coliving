@@ -1,0 +1,24 @@
+# robots.txt for D'Lula Coliving
+# Allow search engines to crawl and index the site
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /*.json
+Disallow: /node_modules
+
+# Specify the sitemap location
+Sitemap: https://dlula.com/sitemap.xml
+
+# Crawl-delay in seconds (optional - be respectful)
+Crawl-delay: 1
+
+# Specific rules for Googlebot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Specific rules for Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1

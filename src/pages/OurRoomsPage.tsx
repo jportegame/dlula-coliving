@@ -16,7 +16,7 @@ const OurRoomsPage = () => {
     <div>
       {/* Banner principal */}
       <SmallBanner
-        image="/our-rooms/banner.jpg"
+        image="/our-rooms/banner.webp"
         title={pageTexts.banner.title}
         subtitle={pageTexts.banner.subtitle}
       />
