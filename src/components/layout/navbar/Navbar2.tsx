@@ -67,7 +67,7 @@ const Navbar = () => {
           {/* Logo desktop */}
           <img src={LogoDesktop} alt="Logo" className="hidden lg:block h-12" />
           {/* Logo mobile */}
-          <img src={LogoMobile} alt="Logo" className="block lg:hidden h-12" />
+          <img src={LogoMobile} alt="Logo" className="block lg:hidden h-6" />
         </NavLink>
 
         {/* Botón de reserva a la derecha */}

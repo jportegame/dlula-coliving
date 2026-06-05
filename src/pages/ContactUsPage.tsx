@@ -16,7 +16,7 @@ const ContactUsPage = () => {
     <main className="bg-background text-text-primary">
       {/* Banner */}
       <SmallBanner
-        image="/contact-us/banner.jpg"
+        image="/contact-us/banner.webp"
         title={pageTexts.banner.title}
         subtitle={pageTexts.banner.subtitle}
       />

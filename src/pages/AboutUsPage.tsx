@@ -37,7 +37,7 @@ const AboutUsPage = () => {
     <main className="bg-background text-text-primary">
       {/* Banner */}
       <SmallBanner
-        image="/about-us/banner.jpg"
+        image="/about-us/banner.webp"
         title={pageTexts.banner.title}
         subtitle={pageTexts.banner.subtitle}
       />

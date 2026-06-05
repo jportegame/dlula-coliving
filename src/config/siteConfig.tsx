@@ -152,7 +152,7 @@ export const siteConfig = {
       "All of our individually designed rooms have been created to ensure you have the ultimate comfort during your stay. All of our luxury rooms have a Private Bathroom, Work Desk & Ergonomic Chair, Air Conditioning, Smart TV & Fast Fiber Optic Internet. Explore Our Rooms to choose your perfect stay.",
     ctaLabel: "Explore Our Rooms",
     ctaHref: "/our-rooms",
-    image: "/our-rooms/room-1/room1-main.jpg",
+    image: "/our-rooms/room-1/room1-main.webp",
     showArrows: false,
     imageAlt: "Luxury boutique room at D’Lula Coliving",
     seo: {
@@ -764,7 +764,7 @@ export const siteConfig = {
     description:
       "At D’Lula, community comes first. Our common areas are designed to bring people together, inspire new ideas and make every day feel like home.",
 
-    image: "/common-areas/main.jpg",
+    image: "/common-areas/main.webp",
 
     imageAlt: "D'Lula common areas",
 
@@ -800,32 +800,32 @@ export const siteConfig = {
           "A calm and inspiring environment thoughtfully designed for focus, creativity and remote work.",
         description:
           "Stay productive in a quiet and beautifully designed space created for digital nomads, remote workers and moments of deep focus. Whether you're working, studying or creating, D’Lula’s coworking area is designed to make productivity feel natural.",
-        coverImage: "/common-areas/coworking/coworking-2.jpg",
+        coverImage: "/common-areas/coworking/coworking-2.webp",
         imageAlt: "D'Lula coworking space",
         images: [
           {
-            src: "/common-areas/coworking/coworking-1.JPG",
+            src: "/common-areas/coworking/coworking-1.webp",
             alt: "Coworking - Image 1",
-            width: 3456,
-            height: 5184,
+            width: 1067,
+            height: 1600,
           },
           {
-            src: "/common-areas/coworking/coworking-2.jpg",
+            src: "/common-areas/coworking/coworking-2.webp",
             alt: "Coworking - Image 2",
-            width: 1696,
-            height: 2528,
+            width: 1073,
+            height: 1600,
           },
           {
-            src: "/common-areas/coworking/coworking-3.jpg",
+            src: "/common-areas/coworking/coworking-3.webp",
             alt: "Coworking - Image 3",
-            width: 6192,
-            height: 3480,
+            width: 1600,
+            height: 899,
           },
           {
-            src: "/common-areas/coworking/coworking-4.jpg",
+            src: "/common-areas/coworking/coworking-4.webp",
             alt: "Coworking - Image 4",
-            width: 6192,
-            height: 3480,
+            width: 1600,
+            height: 899,
           },
         ],
       },
@@ -840,46 +840,46 @@ export const siteConfig = {
         description:
           "More than just a place to stay, D’Lula is a thoughtfully designed home created to inspire connection, comfort and everyday well-being. Explore the shared spaces, warm atmosphere and elegant details that make the house feel truly special.",
 
-        coverImage: "/common-areas/house/house-1.JPG",
+        coverImage: "/common-areas/house/house-1.webp",
 
         imageAlt: "D'Lula house",
 
         images: [
           {
-            src: "/common-areas/house/house-1.JPG",
+            src: "/common-areas/house/house-1.webp",
             alt: "House - Image 1",
-            width: 5184,
-            height: 3456,
+            width: 1600,
+            height: 1067,
           },
           {
-            src: "/common-areas/house/house-2.JPG",
+            src: "/common-areas/house/house-2.webp",
             alt: "House - Image 2",
-            width: 5184,
-            height: 3456,
+            width: 1600,
+            height: 1067,
           },
           {
-            src: "/common-areas/house/house-3.jpg",
+            src: "/common-areas/house/house-3.webp",
             alt: "House - Image 3",
-            width: 1536,
-            height: 2730,
+            width: 900,
+            height: 1600,
           },
           {
-            src: "/common-areas/house/house-5.jpg",
+            src: "/common-areas/house/house-5.webp",
             alt: "House - Image 5",
-            width: 2089,
-            height: 1175,
+            width: 1600,
+            height: 900,
           },
           {
-            src: "/common-areas/house/house-6.JPG",
+            src: "/common-areas/house/house-6.webp",
             alt: "House - Image 6",
-            width: 3456,
-            height: 5184,
+            width: 1067,
+            height: 1600,
           },
           {
-            src: "/common-areas/house/house-7.jpg",
+            src: "/common-areas/house/house-7.webp",
             alt: "House - Image 7",
-            width: 6192,
-            height: 3480,
+            width: 1600,
+            height: 899,
           },
         ],
       },
@@ -894,64 +894,64 @@ export const siteConfig = {
         description:
           "At D’Lula, the kitchen is more than a functional space — it’s where conversations begin, recipes are shared and everyday moments become memorable. Fully equipped and thoughtfully designed, it invites guests to cook, gather and feel at home.",
 
-        coverImage: "/common-areas/kitchen/kitchen-1.jpg",
+        coverImage: "/common-areas/kitchen/kitchen-1.webp",
 
         imageAlt: "D'Lula kitchen",
 
         images: [
           {
-            src: "/common-areas/kitchen/kitchen-1.jpg",
+            src: "/common-areas/kitchen/kitchen-1.webp",
             alt: "Kitchen - Image 1",
-            width: 2730,
-            height: 1536,
+            width: 1600,
+            height: 900,
           },
           {
-            src: "/common-areas/kitchen/kitchen-3.jpg",
+            src: "/common-areas/kitchen/kitchen-3.webp",
             alt: "Kitchen - Image 3",
-            width: 2730,
-            height: 1536,
+            width: 1600,
+            height: 900,
           },
           {
-            src: "/common-areas/kitchen/kitchen-4.jpg",
+            src: "/common-areas/kitchen/kitchen-4.webp",
             alt: "Kitchen - Image 4",
-            width: 2730,
-            height: 1536,
+            width: 1600,
+            height: 900,
           },
           {
-            src: "/common-areas/kitchen/kitchen-5.jpg",
+            src: "/common-areas/kitchen/kitchen-5.webp",
             alt: "Kitchen - Image 5",
-            width: 6192,
-            height: 3480,
+            width: 1600,
+            height: 899,
           },
           {
-            src: "/common-areas/kitchen/kitchen-6.jpg",
+            src: "/common-areas/kitchen/kitchen-6.webp",
             alt: "Kitchen - Image 6",
-            width: 6173,
-            height: 3469,
+            width: 1600,
+            height: 899,
           },
           {
-            src: "/common-areas/kitchen/kitchen-7.JPG",
+            src: "/common-areas/kitchen/kitchen-7.webp",
             alt: "Kitchen - Image 7",
-            width: 3456,
-            height: 5184,
+            width: 1067,
+            height: 1600,
           },
           {
-            src: "/common-areas/kitchen/kitchen-9.jpg",
+            src: "/common-areas/kitchen/kitchen-9.webp",
             alt: "Kitchen - Image 9",
             width: 1548,
             height: 870,
           },
           {
-            src: "/common-areas/kitchen/kitchen-10.JPG",
+            src: "/common-areas/kitchen/kitchen-10.webp",
             alt: "Kitchen - Image 10",
-            width: 5184,
-            height: 3456,
+            width: 1600,
+            height: 1067,
           },
           {
-            src: "/common-areas/kitchen/kitchen-11.JPG",
+            src: "/common-areas/kitchen/kitchen-11.webp",
             alt: "Kitchen - Image 11",
-            width: 5184,
-            height: 3456,
+            width: 1600,
+            height: 1067,
           },
         ],
       },
@@ -966,52 +966,52 @@ export const siteConfig = {
         description:
           "The Living Room is the heart of connection at D’Lula — a beautifully curated space to relax, unwind and share moments with others. Whether reading, enjoying a coffee or spending time in good company, it’s designed to feel warm, inspiring and effortlessly comfortable.",
 
-        coverImage: "/common-areas/living-room/livingroom-1.jpg",
+        coverImage: "/common-areas/living-room/livingroom-1.webp",
 
         imageAlt: "D'Lula living room",
 
         images: [
           {
-            src: "/common-areas/living-room/livingroom-1.jpg",
+            src: "/common-areas/living-room/livingroom-1.webp",
             alt: "Living Room - Image 1",
-            width: 2730,
-            height: 1536,
+            width: 1600,
+            height: 900,
           },
           {
-            src: "/common-areas/living-room/livingroom-2.jpg",
+            src: "/common-areas/living-room/livingroom-2.webp",
             alt: "Living Room - Image 2",
-            width: 1536,
-            height: 2730,
+            width: 900,
+            height: 1600,
           },
           {
-            src: "/common-areas/living-room/livingroom-3.jpg",
+            src: "/common-areas/living-room/livingroom-3.webp",
             alt: "Living Room - Image 3",
-            width: 2470,
-            height: 1389,
+            width: 1600,
+            height: 899,
           },
           {
-            src: "/common-areas/living-room/livingroom-4.jpg",
+            src: "/common-areas/living-room/livingroom-4.webp",
             alt: "Living Room - Image 4",
-            width: 2730,
-            height: 1536,
+            width: 1600,
+            height: 900,
           },
           {
-            src: "/common-areas/living-room/livingroom-5.jpg",
+            src: "/common-areas/living-room/livingroom-5.webp",
             alt: "Living Room - Image 5",
-            width: 2224,
-            height: 1251,
+            width: 1600,
+            height: 900,
           },
           {
-            src: "/common-areas/living-room/livingroom-6.JPG",
+            src: "/common-areas/living-room/livingroom-6.webp",
             alt: "Living Room - Image 6",
-            width: 3456,
-            height: 5184,
+            width: 1067,
+            height: 1600,
           },
           {
-            src: "/common-areas/living-room/livingroom-7.JPG",
+            src: "/common-areas/living-room/livingroom-7.webp",
             alt: "Living Room - Image 7",
-            width: 3456,
-            height: 5184,
+            width: 1067,
+            height: 1600,
           },
         ],
       },
@@ -1023,54 +1023,54 @@ export const siteConfig = {
       "Designed with community in mind. D’Lula’s shared spaces create a warm and social atmosphere where guests can work, connect and enjoy the experience of living together.",
     images: [
       {
-        src: "/common-areas/coworking/coworking-2.jpg",
+        src: "/common-areas/coworking/coworking-2.webp",
         width: 1696,
         height: 2528,
       },
       {
-        src: "/common-areas/house/house-1.JPG",
+        src: "/common-areas/house/house-1.webp",
         width: 5184,
         height: 3456,
       },
       {
-        src: "/common-areas/house/house-7.jpg",
+        src: "/common-areas/house/house-7.webp",
         width: 6192,
         height: 3480,
       },
       {
-        src: "/common-areas/kitchen/kitchen-1.jpg",
+        src: "/common-areas/kitchen/kitchen-1.webp",
         width: 2730,
         height: 1536,
       },
       {
-        src: "/common-areas/kitchen/kitchen-4.jpg",
+        src: "/common-areas/kitchen/kitchen-4.webp",
         width: 2730,
         height: 1536,
       },
       {
-        src: "/common-areas/house/house-3.jpg",
+        src: "/common-areas/house/house-3.webp",
         alt: "House - Image 3",
         width: 1536,
         height: 2730,
       },
       {
-        src: "/common-areas/house/house-5.jpg",
+        src: "/common-areas/house/house-5.webp",
         alt: "House - Image 5",
         width: 2089,
         height: 1175,
       },
       {
-        src: "/common-areas/living-room/livingroom-1.jpg",
+        src: "/common-areas/living-room/livingroom-1.webp",
         width: 2730,
         height: 1536,
       },
       {
-        src: "/common-areas/living-room/livingroom-4.jpg",
+        src: "/common-areas/living-room/livingroom-4.webp",
         width: 2730,
         height: 1536,
       },
       {
-        src: "/common-areas/living-room/livingroom-7.JPG",
+        src: "/common-areas/living-room/livingroom-7.webp",
         width: 3456,
         height: 5184,
       },
@@ -1087,7 +1087,7 @@ export const siteConfig = {
     info: [
       {
         title: "Running Club",
-        image: "/about-us/running.jpg",
+        image: "/about-us/running.webp",
         content: [
           {
             title: "Join the Running Club",
@@ -1116,14 +1116,14 @@ export const siteConfig = {
               text: "Join the Running Club",
               link: "https://chat.whatsapp.com/GsywlXkbuuaIYrBTPNm7zE",
             },
-            image: "/about-us/running.jpg",
+            image: "/about-us/running.webp",
           },
         ],
       },
 
       {
         title: "Hikes",
-        image: "/about-us/hikes.jpg",
+        image: "/about-us/hikes.webp",
         content: [
           {
             title: "Explore Medellín’s Nature",
@@ -1156,7 +1156,7 @@ export const siteConfig = {
       },
       {
         title: "Volunteer",
-        image: "/about-us/volunteer.jpeg",
+        image: "/about-us/volunteer.webp",
         content: [
           {
             title: "Volunteer In Medellin",
@@ -1175,13 +1175,13 @@ export const siteConfig = {
                 based on your interests and passions.
               </>
             ),
-            image: "/about-us/volunteer.jpeg",
+            image: "/about-us/volunteer.webp",
           },
         ],
       },
       {
         title: "Experiences",
-        image: "/about-us/experiences.jpeg",
+        image: "/about-us/experiences.webp",
         content: [
           {
             title: "Unforgettable Medellín Experiences",
@@ -1199,13 +1199,13 @@ export const siteConfig = {
                 views, there’s always something exciting waiting for you.
               </>
             ),
-            image: "/about-us/experiences.jpeg",
+            image: "/about-us/experiences.webp",
           },
         ],
       },
       {
         title: "Community",
-        image: "/about-us/community.jpg",
+        image: "/about-us/community.webp",
         content: [
           {
             title: "D'Lula’s Community Spirit",
