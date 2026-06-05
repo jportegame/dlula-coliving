@@ -66,12 +66,12 @@ const LuxurySplitHero = ({
 
             {animated ? (
               <AnimatedElement animation="slide-up" delay={100}>
-                <h1 className="font-primary text-4xl font-normal uppercase leading-tight tracking-[0.22em] sm:text-5xl lg:text-6xl">
+                <h1 className="font-primary text-3xl font-normal uppercase leading-tight  sm:text-4xl md:tracking-[0.22em] md:text-5xl lg:text-6xl">
                   {title}
                 </h1>
               </AnimatedElement>
             ) : (
-              <h1 className="font-primary text-4xl font-normal uppercase leading-tight tracking-[0.22em] sm:text-5xl lg:text-6xl">
+              <h1 className="font-primary text-3xl font-normal uppercase leading-tight sm:text-4xl md:tracking-[0.22em] md:text-5xl lg:text-6xl">
                 {title}
               </h1>
             )}

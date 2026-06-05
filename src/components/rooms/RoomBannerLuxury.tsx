@@ -36,7 +36,7 @@ const RoomBannerLuxury = ({ room, reverse = false }: RoomBannerLuxuryProps) => {
   return (
     <article className="w-full overflow-hidden bg-black text-white">
       <div
-        className={`grid h-auto min-h-screen max-h-screen grid-cols-1 lg:h-screen lg:grid-cols-2 ${
+        className={`grid h-auto grid-cols-1 lg:h-screen lg:max-h-screen lg:grid-cols-2 ${
           reverse ? "lg:[&>*:first-child]:order-2" : ""
         }`}
       >
@@ -101,7 +101,7 @@ const RoomBannerLuxury = ({ room, reverse = false }: RoomBannerLuxuryProps) => {
         </div>
 
         {/* Swiper */}
-        <div className="relative h-[45vh] lg:h-screen">
+        <div className="relative h-auto min-h-[45vh] lg:h-screen">
           <Swiper
             modules={[Autoplay, Navigation, Pagination]}
             slidesPerView={1}
