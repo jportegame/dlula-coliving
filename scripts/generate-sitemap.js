@@ -12,7 +12,7 @@ import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-const siteUrl = 'https://dlula.com';
+const siteUrl = 'https://dlulacoliving.com';
 
 // Manual configuration based on current siteConfig
 const staticPages = [
