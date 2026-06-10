@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -79,8 +80,8 @@ const RoomBannerLuxury = ({ room, reverse = false }: RoomBannerLuxuryProps) => {
               </p>
             )}
 
-            <a
-              href={`/rooms/${room.slug}`}
+            <NavLink
+              to={`/rooms/${room.slug}`}
               rel="noopener noreferrer"
               className="mt-8 group inline-flex flex-col font-secondary text-xs font-semibold uppercase tracking-[0.4em]"
             >
@@ -91,7 +92,7 @@ const RoomBannerLuxury = ({ room, reverse = false }: RoomBannerLuxuryProps) => {
               </span>
 
               <span className="h-px w-full bg-primary transition-all duration-300 group-hover:w-3/4" />
-            </a>
+            </NavLink>
             <p className="mt-4 max-w-xl font-secondary text-xs text-white/60">
               All rooms are priced between $600 - $800 usd (based on a 30 day
               stay) - Please send us a WhatsApp for accurate pricing &

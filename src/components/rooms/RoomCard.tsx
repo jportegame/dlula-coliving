@@ -13,7 +13,7 @@ import "swiper/css";
 // @ts-ignore
 import "swiper/css/navigation";
 
-import "./roomCard.css";
+import { NavLink } from 'react-router-dom';
 
 interface RoomCardProps {
   room: Room;
@@ -93,13 +93,13 @@ const RoomCard = ({ room }: RoomCardProps) => {
           {room.priceDescription}
         </p>
         {/* View Room Button */}
-        <a
-          href={`/rooms/${room.slug}`}
+        <NavLink
+          to={`/rooms/${room.slug}`}
           className="flex items-center justify-center bg-primary text-white py-2 rounded-lg mt-2 hover:bg-opacity-80 transition"
         >
           <FaArrowRight className="mr-2" />
           View Room
-        </a>
+        </NavLink>
       </div>
       <Lightbox
         styles={{ container: { backgroundColor: "rgba(0, 0, 0, .8)" } }}

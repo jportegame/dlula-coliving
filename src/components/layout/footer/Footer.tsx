@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import { siteConfig } from "../../../config/siteConfig";
 import {
   FaFacebookF,
@@ -69,9 +70,9 @@ const Footer = () => {
             <ul className="text-sm text-gray-300 space-y-2">
               {footer.quickMenu.map((item, i) => (
                 <li key={i}>
-                  <a href={item.path} className="hover:text-white">
+                  <NavLink to={item.path} className="hover:text-white">
                     {item.label}
-                  </a>
+                  </NavLink>
                 </li>
               ))}
             </ul>
